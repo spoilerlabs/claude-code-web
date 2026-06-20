@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "n8n-dev": {
+      "type": "http",
+      "url": "https://n8n-dev.raddo.cl/mcp-server/http",
+      "headers": {
+        "Authorization": "Bearer ${N8N_DEV_TOKEN}"
+      }
+    },
+    "n8n-prod": {
+      "type": "http",
+      "url": "https://n8n.raddo.cl/mcp-server/http",
+      "headers": {
+        "Authorization": "Bearer ${N8N_PROD_TOKEN}"
+      }
+    }
+  }
+}
